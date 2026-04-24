@@ -71,6 +71,7 @@
     <Content Include="DangNhap.aspx" />
     <Content Include="DangXuat.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="QuanLyKhoanChi.aspx" />
     <Content Include="QuanLyKhoanThu.aspx" />
     <Content Include="TrangChu.aspx" />
     <Content Include="Web.config" />
@@ -101,6 +102,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanLyKhoanChi.aspx.cs">
+      <DependentUpon>QuanLyKhoanChi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanLyKhoanChi.aspx.designer.cs">
+      <DependentUpon>QuanLyKhoanChi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="QuanLyKhoanThu.aspx.cs">
       <DependentUpon>QuanLyKhoanThu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
